@@ -6,44 +6,132 @@
     <meta name='viewport'
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <title>Pepper Starr</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='styles.css'/>
   </head>
 
   <body>
-  <h1>All About Pepper </h1>
+    <div='page'>
+    <div='header'>
+  <div style="background-image: url('https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');background-size: cover; height:450px; padding-top:40px; padding-left:40px;">
+    <img src="images/flowers.jpg" style="height:300px; border-radius: 50%; border: 15px solid #f86b40;" alt="image of pepper the dog sitting by some flowers">
+  <h1>Pepper Starr </h1>
+  </div>
+</div>
 
-  <h2>Best of Pepper</h2>
-  <div class='photo-grid-container'>
-    <div class='photo-grid'>
+  <ul>
+      <li><a href=#about>About</a></li>
+      <li><a href=#best-of>Best Of</a></li>
+      <li><a href=#likes>Likes</a></li>
+      <li><a href=#dislikes>Dislikes</a></li>
+      <li><a href=#friends>Friends</a></li>
+  </ul>
 
-      <div class='photo-grid-item first-item'>
-        <img src='images/baby.jpg'/>
-      </div>
-
-      <div class='photo-grid-item'>
-        <img src='images/face.jpg'/>
-      </div>
-
-      <div class='photo-grid-item'>
-        <img src='images/flat.jpg'/>
-      </div>
-
-      <div class='photo-grid-item'>
-        <img src='images/flowers.jpg'/>
-      </div>
-
-      <div class='photo-grid-item last-item'>
-        <img src='images/portrait.jpg'/>
-      </div>
-    </div>
+  <div id='about'>
+  <h2> About Pepper </h2>
+  <p>  Pepper Starr is a </p>
   </div>
 
+  <div id='best-of'>
+  <h2>Best of Pepper</h2>
+  <p> Pepper is maybe the most photogenic dog out there, so there's no shortage of fantastic photos of her. It was tough to narrow it down, but here's some of her best work: </p>
+
+  <!-- Slideshow container - from https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="images/baby.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="images/face.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="images/flat.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="images/flowers.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="images/portrait.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="images/yamaka.jpg" style="width:100%">
+</div>
+
+
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</div>
+</div>
+<br>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+for (i = 0; i < slides.length; i++) {
+  slides[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex > slides.length) {slideIndex = 1}
+slides[slideIndex-1].style.display = "block";
+setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+
+  <div id='likes'>
   <h2>Likes</h2>
+  <p>What Pepper loves more than anything else comes down to one thing: sticks. If you take Pepper on a walk, she's gotta have a stick. You can try to use toys, treats, and your own charisma to get Pepper to come to you, but those who truly know Pepper can easily lure her in with a simple stick. Pepper is a fan of the simple things in life. She also likes the snow, doing big stretches, and sticking her head out of the car window. </p>
+  <div class='photo-grid'>
+    <div class='grid-image '><img src="images/big stick.jpg" alt="pepper with a big stick, staring into the distance" style='width:300px'></div>
+    <div class='grid-image '><img src="images/stick-2.jpeg" alt="pepper with another stick" style='width:300px'></div>
+    <div class='grid-image '><img src="images/thick-stick.jpg" alt="Pepper with a thick stick, sitting" style='width:300px'></div>
+      <div class='grid-image '><img src="images/blep.jpg" alt="Pepper in the snow, sticking her tongue out" style='width:300px'></div>
+        <div class='grid-image '><img src="images/car.jpg" alt="Pepper sticking her head out of the car" style='width:300px'></div>
+          <div class='grid-image '><img src="images/stretch.jpg" alt="Pepper doing a BIG stretch" style='width:300px'></div>
+  </div>
 
-
+  <div id='dislikes'>
   <h2> Dislikes </h2>
+  <p>Some of Pepper's least favorite things include packing and not being outside. If she sees you packing for a trip, you'll likely get a solemn stare and disappointed head nod as she leaves to to pack. She's not mad, just disappointed. As for going outside, Pepper is persistent. She will patiently wait by the door, maybe throwing in some adorable pawing at it, until she is happily running around her backyard, or sitting in her favorite spot on the deck    </p>
+  <div class='photo-grid'>
+    <div class='grid-image '><img src="images/mirror.jpg" alt="Pepper staring at a mirror" style='width:300px'></div>
+    <div class='grid-image '><img src="images/not-outside.jpg" alt="Pepper staring at the door and pawing at it to go outside" style='width:300px'></div>
+    <div class='grid-image '><img src="images/packing.jpg" alt="Pepper staring at me while we pack to leave" style='width:300px'></div>
+  </div>
+  </div>
 
+  <div id='friends'>
   <h2> Friends</h2>
-
-
+  <p> </p>
+  <div class='photo-grid'>
+    <div class='grid-image '><img src="images/hedgehog.jpg" alt="Pepper with her hedgehog toy" style='width:300px'></div>
+    <div class='grid-image '><img src="images/friend.jpg" alt="Pepper with her puppy friend" style='width:300px'></div>
+    <div class='grid-image '><img src="images/friend 1.jpg" alt="Pepper with her puppy friend" style='width:300px'></div>
+    <div class='grid-image '><img src="images/friend-2.jpg" alt="Pepper with her puppy friend" style='width:300px'></div>
+    <div class='grid-image '><img src="images/snowman.jpg" alt="Pepper with a snowman" style='width:300px'></div>
+  </div>
+  </div>
+</div>
   </body>
   </html>
