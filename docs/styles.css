@@ -40,10 +40,10 @@ p {
   font-family: 'Libre Baskerville', serif;
 }
 
-#friends, #likes, #dislikes, #about, #best-of
+#friends, #likes, #dislikes, #about, #best-of, #places
 {
   background-color: #f4f4f2;
-  margin: 2px; 
+  margin: 2px;
 }
 
 ul {
@@ -84,7 +84,7 @@ li a:hover {
 .photo-grid {
   width: 100%;
   display: flex;
-  justify-content: center;;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -156,4 +156,18 @@ li a:hover {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* footer styling */
+#footer {
+    background-color: #ff9676;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
 }
