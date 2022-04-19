@@ -2,6 +2,8 @@
 
 For my final project, I will be making a web portfolio for my dog, Pepper. This will be similar in structure to a dating/social media profile, including different pages for her likes, dislikes, friends, and favorite places, along with plenty of pictures of her with those things. The structure will be one page with links that scroll to different grids on the page, rather than multiple pages. 
 
+The website can be found at: https://kaitlynmchugh.github.io/pepper-portfolio/ 
+
 #
 
 Baseline goals: 
