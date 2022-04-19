@@ -12,12 +12,13 @@
 
   <body>
     <div='page'>
-    <div='header'>
-  <div style="background-image: url('https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');background-size: cover; height:450px; padding-top:40px; padding-left:40px;">
-    <img src="images/flowers.jpg" style="height:300px; border-radius: 50%; border: 15px solid #f86b40;" alt="image of pepper the dog sitting by some flowers">
-  <h1>Pepper Starr </h1>
+    <div='header' 'center'>
+  <div style="background-image: url('images/header.jpg');background-size: cover; height:450px; padding-top:40px; padding-left:40px;">
+    <img src="images/flowers.jpg" style="height:300px; width:300px; border-radius: 50%; border: 15px solid #f86b40;" alt="image of pepper the dog sitting by some flowers" class="center">
+  <h1>PEPPER STARR </h1>
   </div>
 </div>
+
 
   <ul>
       <li><a href=#about>About</a></li>
@@ -28,6 +29,8 @@
       <li><a href=#places>Places</a></li>
   </ul>
 
+
+
   <div id='about'>
   <h2> About Pepper </h2>
   <p>  Pepper Starr is an Australian Cobberdog. She was born on May 25, 2020 in Barcelona, Spain to parents Dogking Mistress of the World (Mistress) and Dogking Billy. She left Barcelona on September 16, 2020 and arrived in Washington, D.C. on September 17, 2020, where she was welcomed by the Starr family. </p>
@@ -36,69 +39,16 @@
   <div id='best-of'>
   <h2>Best of Pepper</h2>
   <p> Pepper is maybe the most photogenic dog out there, so there's no shortage of fantastic photos of her. It was tough to narrow it down, but here's some of her best work: </p>
+  <div class='photo-grid'>
+    <div class='grid-image '><img src="images/baby.jpg" alt="pepper with a big stick, staring into the distance" style='width:300px'></div>
+    <div class='grid-image '><img src="images/flat.jpg" alt="pepper with another stick" style='width:300px'></div>
+    <div class='grid-image '><img src="images/flowers.jpg" alt="Pepper doing a BIG stretch" style='width:300px'></div>
+    <div class='grid-image '><img src="images/portrait.jpg" alt="Pepper with a thick stick, sitting" style='width:300px'></div>
+        <div class='grid-image '><img src="images/face.jpg" alt="Pepper sticking her head out of the car" style='width:300px'></div>
+          <div class='grid-image '><img src="images/floor.jpg" alt="Pepper doing a BIG stretch" style='width:300px'></div>
+  </div>
+  </div>
 
-  <!-- Slideshow container - from https://www.w3schools.com/howto/howto_js_slideshow.asp -->
-<div class="slideshow-container">
-
-<!-- Full-width images with number and caption text -->
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 6</div>
-  <img src="images/baby.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 6</div>
-  <img src="images/face.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 6</div>
-  <img src="images/flat.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">4 / 6</div>
-  <img src="images/flowers.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">5 / 6</div>
-  <img src="images/portrait.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">6 / 6</div>
-  <img src="images/yamaka.jpg" style="width:100%">
-</div>
-
-
-
-<!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-</div>
-</div>
-<br>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-var i;
-var slides = document.getElementsByClassName("mySlides");
-for (i = 0; i < slides.length; i++) {
-  slides[i].style.display = "none";
-}
-slideIndex++;
-if (slideIndex > slides.length) {slideIndex = 1}
-slides[slideIndex-1].style.display = "block";
-setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-</div>
 
   <div id='likes'>
   <h2>Likes</h2>
@@ -127,13 +77,14 @@ setTimeout(showSlides, 2000); // Change image every 2 seconds
 
   <div id='friends'>
   <h2> Friends</h2>
-  <p> Pepper is a very independent lady, and she can be a little shy around strangers, but once she gets to know you, she has no problem being friends.  </p>
+  <p> Pepper is a very independent lady, and she can be a little shy around strangers, but once she gets to know you, she has no problem being friends, with people, other puppies, hedgehogs, and even snowmen!.  </p>
   <div class='photo-grid'>
     <div class='grid-image '><img src="images/hedgehog.jpg" alt="Pepper with her hedgehog toy" style='width:300px'></div>
     <div class='grid-image '><img src="images/friend.jpg" alt="Pepper with her puppy friend" style='width:300px'></div>
     <div class='grid-image '><img src="images/friend 1.jpg" alt="Pepper with her puppy friend" style='width:300px'></div>
     <div class='grid-image '><img src="images/friend-2.jpg" alt="Pepper with her puppy friend" style='width:300px'></div>
     <div class='grid-image '><img src="images/snowman.jpg" alt="Pepper with a snowman" style='width:300px'></div>
+    <div class='grid-image '><img src="images/adam.jpg" alt="Pepper with a Adam" style='width:300px'></div>
   </div>
   </div>
 

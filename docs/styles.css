@@ -2,10 +2,11 @@
 
 h1 {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 60px;
+  letter-spacing: 2px;
 }
 
 h2 {
@@ -16,9 +17,11 @@ h2 {
   font-family: 'Courgette', cursive;
 }
 
-.header {
-  align-items: center;
-  text-align: center;
+h1, .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 body {
@@ -38,6 +41,10 @@ p {
   padding: 25px;
   font-size: 16px;
   font-family: 'Libre Baskerville', serif;
+}
+
+body {
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/cartographer.png');
 }
 
 #friends, #likes, #dislikes, #about, #best-of, #places
@@ -170,4 +177,5 @@ li a:hover {
 h3 {
   font-family: 'Libre Baskerville', serif;
   font-size: 14px;
+  font-weight: normal;
 }
